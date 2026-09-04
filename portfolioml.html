@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MILLER — Web3 Developer &amp; Cybersecurity Enthusiast</title>
+<meta name="description" content="Portfolio of Miller, a Web3 developer and cybersecurity enthusiast building secure, modern digital experiences." />
+<meta property="og:title" content="MILLER — Web3 Developer & Cybersecurity Enthusiast" />
+<meta property="og:description" content="Secure, modern digital experiences at the intersection of Web3, technology and cybersecurity." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<canvas id="web3-canvas" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">MILLER</a>
+  <nav class="nav__links" id="navLinks" aria-label="Primary">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow reveal">Portfolio — 2026</p>
+      <h1 class="hero__name reveal">MILLER</h1>
+      <h2 class="hero__title reveal">
+        <span>WEB3 DEVELOPER</span>
+        <span class="dim">&amp; CYBERSECURITY ENTHUSIAST</span>
+      </h2>
+      <p class="hero__lead reveal">
+        I build secure, modern digital experiences at the intersection of Web3,
+        technology, and cybersecurity.
+      </p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--primary" href="#work">VIEW MY WORK</a>
+        <a class="btn btn--ghost" href="#contact">LET'S CONNECT</a>
+      </div>
+    </div>
+    <div class="hero__meta">
+      <span>SCROLL</span>
+      <span class="line" aria-hidden="true"></span>
+      <span>BASED ONLINE — AVAILABLE FOR WORK</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <span class="section__index">01 — About</span>
+    <h2 class="display reveal">BUILDING FOR THE<br /><span class="dim">DECENTRALIZED FUTURE.</span></h2>
+    <div class="about__grid">
+      <div class="reveal">
+        <p class="lead">
+          I'm Michael, a developer focused on Web3, cybersecurity and software
+          engineering. I care about interfaces that feel calm and systems that
+          stay safe under pressure.
+        </p>
+        <p class="muted">
+          My work sits between design and security: building responsive
+          front-ends, exploring blockchain tooling, and learning how to break
+          things so I can build them better. Every project is an exercise in
+          clarity — clean structure, honest typography, and no wasted motion.
+        </p>
+      </div>
+      <ul class="about__list reveal">
+        <li><span>01</span> Web3 &amp; smart contract interfaces</li>
+        <li><span>02</span> Security-minded front-end engineering</li>
+        <li><span>03</span> APIs &amp; systems integration</li>
+        <li><span>04</span> Responsive, accessible design</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <span class="section__index">02 — Skills</span>
+    <h2 class="display sm reveal">CAPABILITIES</h2>
+    <div class="skills__grid">
+      <article class="skill reveal"><span class="skill__n">01</span><h3>Web3 Development</h3><p>dApp interfaces, wallets, on-chain data.</p></article>
+      <article class="skill reveal"><span class="skill__n">02</span><h3>Blockchain</h3><p>Networks, contracts, token standards.</p></article>
+      <article class="skill reveal"><span class="skill__n">03</span><h3>JavaScript</h3><p>Vanilla JS, ES modules, animation.</p></article>
+      <article class="skill reveal"><span class="skill__n">04</span><h3>HTML &amp; CSS</h3><p>Semantic markup, modern layout systems.</p></article>
+      <article class="skill reveal"><span class="skill__n">05</span><h3>Cybersecurity</h3><p>Threat modelling, secure development.</p></article>
+      <article class="skill reveal"><span class="skill__n">06</span><h3>API Development</h3><p>REST design, auth, integrations.</p></article>
+      <article class="skill reveal"><span class="skill__n">07</span><h3>Git &amp; GitHub</h3><p>Version control, reviews, CI basics.</p></article>
+      <article class="skill reveal"><span class="skill__n">08</span><h3>Responsive Design</h3><p>Layouts that rebuild, not shrink.</p></article>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section work" id="work">
+    <span class="section__index">03 — Selected Work</span>
+    <h2 class="display sm reveal">PROJECTS</h2>
+
+    <div class="projects">
+      <article class="project reveal" data-hue="215">
+        <div class="project__visual"><div class="project__art art--1"></div></div>
+        <div class="project__body">
+          <span class="project__num">01</span>
+          <h3>NEXUS</h3>
+          <p class="project__cat">Web3 Dashboard</p>
+          <p class="project__desc">A unified control room for on-chain portfolios, live protocol metrics and wallet activity.</p>
+          <span class="project__link">VIEW PROJECT <em>&rarr;</em></span>
+        </div>
+      </article>
+
+      <article class="project reveal" data-hue="190">
+        <div class="project__visual"><div class="project__art art--2"></div></div>
+        <div class="project__body">
+          <span class="project__num">02</span>
+          <h3>BLOCKVAULT</h3>
+          <p class="project__cat">Blockchain Security Platform</p>
+          <p class="project__desc">Contract auditing workflows, risk scoring and alerting for decentralized teams.</p>
+          <span class="project__link">VIEW PROJECT <em>&rarr;</em></span>
+        </div>
+      </article>
+
+      <article class="project reveal" data-hue="240">
+        <div class="project__visual"><div class="project__art art--3"></div></div>
+        <div class="project__body">
+          <span class="project__num">03</span>
+          <h3>CRYPTOLENS</h3>
+          <p class="project__cat">Crypto Analytics Interface</p>
+          <p class="project__desc">Editorial-grade charting and market intelligence built for fast, quiet reading.</p>
+          <span class="project__link">VIEW PROJECT <em>&rarr;</em></span>
+        </div>
+      </article>
+
+      <article class="project reveal" data-hue="200">
+        <div class="project__visual"><div class="project__art art--4"></div></div>
+        <div class="project__body">
+          <span class="project__num">04</span>
+          <h3>SECUREX</h3>
+          <p class="project__cat">Cybersecurity Monitoring Platform</p>
+          <p class="project__desc">Real-time threat surfaces, incident timelines and calm, legible reporting.</p>
+          <span class="project__link">VIEW PROJECT <em>&rarr;</em></span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience">
+    <span class="section__index">04 — Experience</span>
+    <h2 class="display sm reveal">TRACK</h2>
+    <ol class="timeline">
+      <li class="reveal"><span class="timeline__year">01</span><div><h3>Web Development</h3><p>Frontend and responsive website development.</p></div></li>
+      <li class="reveal"><span class="timeline__year">02</span><div><h3>Cybersecurity</h3><p>Security-focused development and learning.</p></div></li>
+      <li class="reveal"><span class="timeline__year">03</span><div><h3>Web3</h3><p>Exploring blockchain technology and decentralized applications.</p></div></li>
+    </ol>
+  </section>
+
+  <!-- STATEMENT -->
+  <section class="statement">
+    <h2 class="reveal">
+      TECHNOLOGY SHOULD<br />
+      BE POWERFUL.<br />
+      <span class="dim">SECURE.</span><br />
+      AND HUMAN.
+    </h2>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <span class="section__index">05 — Contact</span>
+    <h2 class="display reveal">LET'S BUILD<br />SOMETHING<br /><span class="dim">DIFFERENT.</span></h2>
+    <div class="contact__grid">
+      <a class="btn btn--primary btn--lg reveal" href="mailto:hello@michael.dev">START A CONVERSATION</a>
+      <ul class="contact__links reveal">
+        <li><a href="loganmiller837@gmail.com">Email <em>&rarr;</em></a></li>
+        <li><a href="https://github.com" target="_blank" rel="noopener">GitHub <em>&rarr;</em></a></li>
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn <em>&rarr;</em></a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram <em>&rarr;</em></a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>© 2026 MILLER</span>
+  <span>WEB3 · SECURITY · DESIGN</span>
+  <a href="#top">BACK TO TOP</a>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
